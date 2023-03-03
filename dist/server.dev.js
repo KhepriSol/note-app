@@ -32,16 +32,14 @@ app.get('/notes', function (req, res) {
 });
 app.get('/api/notes', function (req, res) {
   res.json(allNotes);
-}); // Note posting
-
+});
 app.post('/api/notes', function (req, res) {
   var newNote = req.body;
   newNote.id = allNotes.length + 1;
   allNotes.push(newNote);
   writeNotes(allNotes);
   res.json(newNote);
-}); // Delete notes
-
+});
 app["delete"]('/api/notes/:id', function (req, res) {
   var idToDelete = req.params.id;
   var noteToDelete = allNotes.find(function (note) {

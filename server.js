@@ -31,8 +31,6 @@ app.get('/api/notes', (req, res) => {
   res.json(allNotes);
 });
 
-
-// Note posting
 app.post('/api/notes', (req, res) => {
   const newNote = req.body;
   newNote.id = allNotes.length + 1;
@@ -41,8 +39,6 @@ app.post('/api/notes', (req, res) => {
   res.json(newNote);
 });
 
-
-// Delete notes
 app.delete('/api/notes/:id', (req, res) => {
   const idToDelete = req.params.id;
   const noteToDelete = allNotes.find((note) => note.id == idToDelete);
