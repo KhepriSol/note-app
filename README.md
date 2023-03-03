@@ -2,17 +2,19 @@
 
 Certainly! Here is an example README file for a project using the code you provided:
 
-Note Taker
-Description
+
+# Description
 Note Taker is a simple web application that allows users to create and save notes. The application uses a Node.js server and an Express.js application framework to handle HTTP requests and manage the state of the application. Users can view and delete notes, and all notes are persisted to a JSON file on the server.
 
-Installation
+![screenshot](Capture.PNG)
+
+# Installation
 To install the Note Taker application, follow these steps:
 
 Clone the repository to your local machine.
 Navigate to the root directory of the application in a terminal or command prompt.
 Run npm install to install the necessary dependencies.
-Usage
+# Usage
 To use the Note Taker application, follow these steps:
 
 Navigate to the root directory of the application in a terminal or command prompt.
