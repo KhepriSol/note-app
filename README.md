@@ -1,7 +1,5 @@
 # Note Taker Starter Code
 
-Certainly! Here is an example README file for a project using the code you provided:
-
 Note Taker
 Description
 Note Taker is a simple web application that allows users to create and save notes. The application uses a Node.js server and an Express.js application framework to handle HTTP requests and manage the state of the application. Users can view and delete notes, and all notes are persisted to a JSON file on the server.
